@@ -1,10 +1,10 @@
 {
-  "name": "spms",
+  "name": "gulp-webapp",
   "version": "0.0.1",
-  "description": "spms",
+  "description": "A front-end webapp template width gulp",
   "repository": {
     "type": "git",
-    "url": "git://github.com/greypants/gulp-starter.git"
+    "url": "https://github.com/MillerRen/gulp-webapp.git"
   },
   "devDependencies": {
     "gulp": "^3.8.7",
