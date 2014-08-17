@@ -1,3 +1,3 @@
 var gulp = require('gulp');
 
-gulp.task('default', ['serve']);
+gulp.task('default', ['compass','images','inject','wiredep','browserSync']);

@@ -1,10 +1,10 @@
 var browserSync = require('browser-sync');
 var gulp        = require('gulp');
 
-gulp.task('browserSync', ['build'], function() {
-  browserSync.init(['build/**'], {
+gulp.task('browserSync',  function() {
+  browserSync.init(['src/**'], {
     server: {
-      baseDir: ['build', 'src','bower_components'],
+      baseDir: ['src'],
       routes:{
       	"/bower_components":"bower_components"
       }
